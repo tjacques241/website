@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1"><stop stop-color="#00ffb9"/><stop offset="1" stop-color="#27a7ff"/></linearGradient>
+    <linearGradient id="panel" x1="0" x2="1"><stop stop-color="#0b2445"/><stop offset="1" stop-color="#102f56"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="28" stdDeviation="24" flood-color="#000" flood-opacity=".35"/></filter>
+  </defs>
+  <rect x="70" y="70" width="760" height="560" rx="44" fill="url(#panel)" opacity=".88" filter="url(#shadow)"/>
+  <path d="M120 498 C230 410, 290 520, 410 430 S620 300, 780 190" fill="none" stroke="url(#g1)" stroke-width="7" stroke-linecap="round"/>
+  <g fill="none" stroke="#6aeed8" stroke-opacity=".28">
+    <path d="M150 180h590M150 260h590M150 340h590M150 420h590M150 500h590"/>
+    <path d="M210 140v400M330 140v400M450 140v400M570 140v400M690 140v400"/>
+  </g>
+  <g>
+    <rect x="142" y="442" width="148" height="78" rx="18" fill="#061a33" stroke="#2edfd1"/>
+    <circle cx="176" cy="481" r="21" fill="#00ffb9"/>
+    <path d="M214 468h48M214 489h34" stroke="#fff" stroke-opacity=".75" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g>
+    <rect x="370" y="354" width="170" height="92" rx="20" fill="#061a33" stroke="#27a7ff"/>
+    <path d="M402 402l28-34 38 46 30-26" fill="none" stroke="#00ffb9" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g>
+    <rect x="606" y="210" width="150" height="106" rx="22" fill="#061a33" stroke="#00ffb9"/>
+    <circle cx="650" cy="260" r="24" fill="#27a7ff"/>
+    <path d="M691 240h34M691 263h24M691 286h42" stroke="#fff" stroke-opacity=".72" stroke-width="8" stroke-linecap="round"/>
+  </g>
+  <g stroke="url(#g1)" stroke-width="5" opacity=".85">
+    <path d="M292 480h75"/>
+    <path d="M541 400c55-20 75-52 92-90"/>
+  </g>
+  <g fill="#00ffb9">
+    <circle cx="292" cy="480" r="8"/><circle cx="367" cy="480" r="8"/><circle cx="541" cy="400" r="8"/><circle cx="633" cy="310" r="8"/>
+  </g>
+  <text x="145" y="137" fill="#fff" opacity=".86" font-family="Arial" font-size="24" font-weight="700">Machine health architecture</text>
+  <text x="145" y="570" fill="#9fb7d1" font-family="Arial" font-size="18">Sensors → OT data → Edge / cloud analytics → maintenance action</text>
+</svg>

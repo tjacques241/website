@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560">
+  <defs><linearGradient id="a" x1="0" x2="1"><stop stop-color="#001028"/><stop offset="1" stop-color="#123a64"/></linearGradient></defs>
+  <rect width="1000" height="560" fill="url(#a)"/>
+  <circle cx="820" cy="90" r="240" fill="#00ffb9" opacity=".12"/>
+  <path d="M95 385 C260 285 347 440 493 310 S708 162 884 245" fill="none" stroke="#00ffb9" stroke-width="10" stroke-linecap="round"/>
+  <text x="80" y="120" fill="#00ffb9" font-family="Arial" font-size="30" font-weight="800">TOM TALKS PdM</text>
+  <text x="80" y="205" fill="#fff" font-family="Arial" font-size="58" font-weight="900">What makes a good</text>
+  <text x="80" y="275" fill="#fff" font-family="Arial" font-size="58" font-weight="900">predictive maintenance project?</text>
+  <text x="80" y="470" fill="#b9c9d8" font-family="Arial" font-size="24">60-second technical explainers for industrial audiences</text>
+</svg>
